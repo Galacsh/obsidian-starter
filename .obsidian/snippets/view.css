@@ -1,0 +1,46 @@
+/* Padding at the top */
+div.cm-sizer:first-child,
+div.markdown-preview-sizer:first-child {
+  padding-top: 8em;
+}
+
+/* Overflow handling - Table */
+div.cm-contentContainer .markdown-rendered div:has(table),
+.markdown-preview-section div:has(table) {
+  overflow: auto;
+  width: var(--line-width) !important;
+  max-width: var(--max-width) !important;
+}
+div.cm-contentContainer .markdown-rendered thead > tr > th,
+div.cm-contentContainer .markdown-rendered tbody > tr > td,
+.markdown-preview-section thead > tr > th,
+.markdown-preview-section tbody > tr > td {
+  white-space: nowrap;
+}
+
+/* Overflow handling - Code Block */
+.markdown-preview-section div > pre {
+  overflow: hidden;
+  white-space: pre-wrap;
+}
+.markdown-preview-section div > pre > code {
+  display: block;
+  overflow: auto;
+  white-space: pre;
+}
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock {
+  padding-right: var(--size-4-4);
+  line-break: anywhere;
+}
+
+/* Image size */
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer>.image-embed img,
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer>div:has(.image-embed) img,
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer.cm-contentContainer>.cm-content>.image-embed img,
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-contentContainer.cm-contentContainer>.cm-content>div:has(.image-embed) img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+}

@@ -1,0 +1,11 @@
+{
+  "additionalSortspecFile": "config/sort",
+  "suspended": false,
+  "statusBarEntryEnabled": false,
+  "notificationsEnabled": false,
+  "mobileNotificationsEnabled": false,
+  "customSortContextSubmenu": true,
+  "automaticBookmarksIntegration": true,
+  "bookmarksContextMenus": true,
+  "bookmarksGroupToConsumeAsOrderingReference": "sortspec"
+}

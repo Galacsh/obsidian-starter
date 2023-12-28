@@ -1,0 +1,25 @@
+# Basically, should ignore all files
+**
+
+# But, should track .lindirignore file
+!.lindirignore
+
+#############
+# .obsidian #
+#############
+
+# Should search inside .obsidian folder
+!/.obsidian
+# Should track all the things inside .obsidian
+!/.obsidian/**
+# But ignore workspace config
+.obsidian/workspace*.json
+
+##########
+# config #
+##########
+
+# Should search inside config folder
+!/config
+# Should track all the things inside .obsidian
+!/config/**

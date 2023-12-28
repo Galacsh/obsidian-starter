@@ -1,0 +1,10 @@
+{
+  "defaultViewMode": "source",
+  "strictLineBreaks": true,
+  "spellcheck": false,
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "assets",
+  "livePreview": true
+}

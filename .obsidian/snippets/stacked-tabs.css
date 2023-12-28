@@ -1,0 +1,6 @@
+.workspace
+.workspace-tabs.mod-stacked
+.workspace-tab-container
+.workspace-tab-header-inner-title {
+  text-orientation: inherit !important;
+}

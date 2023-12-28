@@ -1,0 +1,11 @@
+{
+  "pinned": [
+    "editor:focus-right",
+    "editor:focus-left",
+    "workspace:split-vertical",
+    "app:toggle-left-sidebar",
+    "app:toggle-right-sidebar",
+    "templater-obsidian:insert-templater",
+    "obsidian-stille:toggleStille"
+  ]
+}

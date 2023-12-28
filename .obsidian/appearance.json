@@ -1,0 +1,13 @@
+{
+  "accentColor": "",
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "Pretendard",
+  "monospaceFontFamily": "JetBrains Mono,D2Coding",
+  "showViewHeader": false,
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "stacked-tabs",
+    "view"
+  ]
+}
