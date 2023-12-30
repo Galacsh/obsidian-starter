@@ -1,1 +1,8 @@
+# Lindir
 .lindir
+
+# Workspace state
+.obsidian/workspace*.json
+
+# macOS
+.DS_Store
