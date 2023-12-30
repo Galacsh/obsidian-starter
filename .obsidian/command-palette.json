@@ -6,6 +6,7 @@
     "app:toggle-left-sidebar",
     "app:toggle-right-sidebar",
     "templater-obsidian:insert-templater",
-    "obsidian-stille:toggleStille"
+    "obsidian-stille:toggleStille",
+    "app:open-vault"
   ]
 }
