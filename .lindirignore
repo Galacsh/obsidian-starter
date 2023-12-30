@@ -14,6 +14,8 @@
 !/.obsidian/**
 # But ignore workspace config
 .obsidian/workspace*.json
+# But ignore "Iconize" plugin's data
+.obsidian/plugins/obsidian-icon-folder/data.json
 
 ##########
 # config #
@@ -23,3 +25,5 @@
 !/config
 # Should track all the things inside .obsidian
 !/config/**
+# But ignore sorting spec
+config/sort.md

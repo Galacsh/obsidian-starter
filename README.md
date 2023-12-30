@@ -1,4 +1,4 @@
-This is a simple Obsidian starter. 
+This is a simple Obsidian starter.
 
 # Get started
 
@@ -55,4 +55,62 @@ If changes are scattered in linked directories, you can sync them by:
 
 ```shell
 lindir sync
+```
+
+## 7. Custom File Explorer sorting plugin
+
+To sort files in file explorer, you need to create `config/sort.md`.
+
+> [!TIP]
+> Plugin repository: [Custom File Explorer sorting](https://github.com/SebastianMC/obsidian-custom-sort).
+
+This is an example of `config/sort`:
+
+```markdown
+---
+sorting-spec: |-
+  target-folder: /
+  README
+  Quick Notes
+  Projects
+  %
+  config
+  order-asc: a-z
+
+  target-folder: Quick Notes
+  target-folder: Projects
+  order-desc: created
+---
+```
+
+## 8. Iconize plugin
+
+Should manually configure `iconize` plugin.
+
+Example configuration:
+
+```json
+{
+  "settings": {
+    "migrated": 3,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 14,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [],
+    "recentlyUsedIconsSize": 10,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true
+  }
+}
 ```
